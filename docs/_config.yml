@@ -1,6 +1,6 @@
 theme: jekyll-theme-midnight
 title: UW MRO Focuser
-description: Software to automate focusing the UW MRO telescope.
+description: Software to automate focusing the UW Manastash Ridge Observatory (henceforth MRO) telescope.
 plugins:
   - jekyll-relative-links
 relative_links:
