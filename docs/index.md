@@ -1,6 +1,8 @@
 # The UW MRO automated focusing system
 
-These pages will describe the automated focusing system being developed by students in UW Astronomy Undergrad Engineering Group (AUEG). Assumtion is we are writing in python.
+These pages will describe the automated focusing system being developed by students in UW Astronomy Undergrad Engineering Group (AUEG). We are writing in python. There are two ways to achieve focusing:  
+a) measure FWHM and take the smallest value  
+b) look for the brightest pixels in the image to calculate radius of star and go from there
 
 ## Here is a list of steps to take, in order:
 
@@ -39,4 +41,3 @@ Our program needs to:
   * Return a number that gives correct focus
 
 Note: the FWHM method does not work for “donuts” -- extremely out of focus stars.
-Two ways: Measure FWHM and take the smallest value; look for the image the star is the brightest in (small radius)
