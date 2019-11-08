@@ -38,8 +38,5 @@ Our program needs to:
   * Plot FWHM in pixels vs focus steps in mm
   * Return a number that gives correct focus
 
-Two ways: Measure FWHM and take the smallest value; look for the image the star is the brightest (small radius)
-
 Note: the FWHM method does not work for “donuts” -- extremely out of focus stars.
-
-
+Two ways: Measure FWHM and take the smallest value; look for the image the star is the brightest in (small radius)
