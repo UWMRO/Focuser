@@ -2,7 +2,7 @@
 
 These pages will describe the automated focusing system being developed by students in UW Astronomy Undergrad Engineering Group (AUEG). Assumtion is we are writing in python.
 
-## Here is a shortened list of steps to take, in order:
+## Here is a list of steps to take, in order:
 
 ### Focus math
 * Collect test data of previously-acquired focus images
