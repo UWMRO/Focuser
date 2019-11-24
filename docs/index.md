@@ -27,7 +27,7 @@ b) look for the brightest pixels in the image to calculate radius of star and go
 ## Detailed explanation
 
 ### Focus math
-* Find a dozen or so images from a focus sequence at MRO (with logbooks), with some above, some near, and some below focus. This will give us some test data to play with. Logbooks are necessary to compare with the focus values measured by the observers.
+* Starting with 10 images at, above, and below focus (taken from MRO with logbooks intact), with some above, some near, and some below focus. This will give us some test data to play with. Logbooks are necessary to compare with the focus values measured by the observers.
 
 * Use the astropy affiliate photutils package to detect and measure point sources on each image, compute the mean full-width at half maximum (FWHM) for that image.
 
