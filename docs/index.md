@@ -3,7 +3,7 @@
 These pages will describe the automated focusing system being developed by students in UW Astronomy Undergrad Engineering Group (AUEG). We are writing in python. There are two ways to achieve focusing: 
 
 a) measure FWHM and take the smallest value  
-b) look for the brightest pixels in the image and focus so that those pixels saturate
+b) look for the brightest pixels in the image and focus so that there is as much flux as possible in the brightest pixels.
 
 We will be going down route A, and cross-checking that everything works with B.
 
