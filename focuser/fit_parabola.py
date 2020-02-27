@@ -1,5 +1,6 @@
 import numpy as np
-from astropy.modeling import models,fitting
+from astropy.modeling import models, fitting
+
 
 def find_minimum(x, y):
     ''' Fitter function using which FWHM (y var) is plotted versus focus step (x var).
@@ -15,15 +16,14 @@ def find_minimum(x, y):
     -------
     None
     '''
-    fit_parabola
-    find_vertex
-    return
+    coefficients = fit_parabola(x, y)
+    vertex = find_vertex(coefficients)
+    return vertex
+
 
 def fit_parabola(x, y):
     '''This finds the coefficients of the fit parabola.
 
-    Notes
-    -----
     Step-by-step description:
     Step 1: looking for parabola
     Step 2: get linear least square fitting
@@ -53,11 +53,10 @@ def fit_parabola(x, y):
 
     return coefficients
 
+
 def find_vertex(coefficients):
     '''Finds the vertex.
 
-    Notes
-    -----
     The vertex's x value coincides with the optimal focus length.
 
     Parameters
